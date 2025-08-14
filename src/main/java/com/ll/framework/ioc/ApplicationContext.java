@@ -11,7 +11,7 @@ public class ApplicationContext {
     private final Map<String, Object> beans = new HashMap<>();
 
     public ApplicationContext() {
-        // 생성자: 여전히 빈 로직
+
     }
 
     public <T> T genBean(String beanName) {
